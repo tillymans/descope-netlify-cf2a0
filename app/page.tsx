@@ -32,7 +32,7 @@ export default function Home() {
           </GradientText>
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
-          Welcome to the Netlify + Descope Next.js Template
+          Welcome to the EFA SAFETY & SECURITY APP
         </p>
         <div className="flex justify-center items-center flex-col sm:flex-row gap-5">
           <Link href="/login" passHref>
@@ -49,7 +49,7 @@ export default function Home() {
             whileTap={{ scale: 0.98 }}
             onClick={() =>
               window.open(
-                "https://github.com/descope-sample-apps/descope-netlify-template",
+                "https://https://github.com/tillymans/descope-netlify-cf2a0/",
                 "_blank"
               )
             }
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
 
         <p className="mt-8 mb-2 text-lg text-gray-200">
-          Get started by editing{" "}
+          Get started by Registering{" "}
           <code className="bg-gray-800 rounded px-2 py-1 text-sm font-mono">
             app/page.tsx
           </code>
