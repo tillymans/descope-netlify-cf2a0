@@ -6,25 +6,25 @@ export default function Header() {
       <div className="flex justify-between items-center max-w-[1200px] mx-auto">
         <div className="flex items-center gap-2">
           <Image 
-            src="/descope-logo-dark.png" 
-            alt="Descope Logo" 
+            src="/efa_logo.png" 
+            alt="EFA Logo" 
             width={120}
             height={60}
             className="w-[120px] h-[60px] object-contain"
           />
-          <h1 className="text-white text-xl font-">Netlify Example</h1>
+          <h1 className="text-white text-xl font-">EFA SAFETY & SECURITY</h1>
         </div>
         <nav className="flex gap-8">
           <a 
-            href="https://docs.descope.com/" 
+            href="https://nfas.org.sz/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white no-underline hover:text-[#bfdbfe]"
           >
-            Descope Docs
+            Eswatini Football Association
           </a>
           <a 
-            href="https://github.com/descope-sample-apps/descope-netlify-template" 
+            href="https://https://github.com/tillymans/descope-netlify-cf2a0/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white no-underline hover:text-[#bfdbfe]"
