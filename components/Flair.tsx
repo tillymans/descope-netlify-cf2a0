@@ -23,14 +23,14 @@ const Flair = () => {
           className="w-2 h-2 rounded-full bg-[#5cf34f] shadow-[0_0_8px_#5cf34f]"
         />
         <p className="text-sm text-gray-400">
-          NextJS Sample App Powered by{" "}
+          Powered by{" "}
           <a
             href="https://descope.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#5cf34f] hover:underline transition-colors"
           >
-            Descope
+            Intermobs
           </a>
         </p>
       </div>
