@@ -12,7 +12,7 @@ const fontSans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Netlify + Descope Next.js Template",
+  title: "EFA SAFETY & SECURITY",
   description: "Authenticate with Descope",
   icons: {
     icon: "/favicon.ico",
@@ -28,7 +28,7 @@ export default function RootLayout({
     <AuthProvider
       projectId={
         process.env.NEXT_PUBLIC_DESCOPE_PROJECT_ID ||
-        "P2tEBjJR4tViVQ0Blc55EGnFxDNg"
+        "P3CIaGOGEbk698YevRv67xpXMzaF"
       }
       baseUrl={process.env.NEXT_PUBLIC_DESCOPE_BASE_URL || ""}
     >
