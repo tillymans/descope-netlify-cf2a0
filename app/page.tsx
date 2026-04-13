@@ -28,11 +28,11 @@ export default function Home() {
       >
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
           <GradientText className="bg-clip-text text-transparent bg-gradient-to-r from-[#5cf34f] via-[#02dfed] to-[#00a4c5]">
-            Authenticate with Descope
+            EFA SAFE LOG
           </GradientText>
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
-          Welcome to the EFA SAFETY & SECURITY APP
+          Welcome to the EFA Safety & Security Hub
         </p>
         <div className="flex justify-center items-center flex-col sm:flex-row gap-5">
           <Link href="/login" passHref>
@@ -41,7 +41,7 @@ export default function Home() {
               whileTap={{ scale: 0.98 }}
               className="rounded-xl bg-gradient-to-r from-[#00A6B4] via-[#3DEFE9] to-[#5cf34f] px-8 py-3 text-base font-medium text-black shadow-lg border-1 border-[#00A6B4] backdrop-blur-sm w-48 cursor-pointer"
             >
-              Sign In
+              Log In
             </motion.button>
           </Link>
           <motion.button
@@ -49,13 +49,13 @@ export default function Home() {
             whileTap={{ scale: 0.98 }}
             onClick={() =>
               window.open(
-                "https://https://github.com/tillymans/descope-netlify-cf2a0/",
+                "https://github.com/tillymans/descope-netlify-cf2a0/",
                 "_blank"
               )
             }
             className="rounded-xl bg-black border-1 border-[#5cf34f]/50 px-8 py-3 text-base font-medium text-white shadow-lg backdrop-blur-sm w-48 cursor-pointer"
           >
-            View on GitHub
+            Register
           </motion.button>
         </div>
 
